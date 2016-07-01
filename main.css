@@ -1,0 +1,109 @@
+
+strong{color: darkslateblue; font-size: 29px; font-style: oblique; font-family: sans-serif;
+}
+
+ul{
+  /* margin: 上下 左右 */
+   margin: 10px auto; 
+  width: 200px;
+  background: lightgreen;
+  /* border:1px solid red; */
+}
+
+li{
+  /* li 間距 20px，第一個 li 的上邊界會頂出 ul */
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 1px solid green;
+}
+
+
+n{color: gainsboro; font-size:22px;font-family: monospace;}
+m{color:gainsboro;font-size:18px;font-family:monospace;}
+r{color: white;font-size: 70px;font-family: fantasy;}
+v{color: white;font-size:13px;font-family: monospace;}
+a{color: darkgray;font-size:13px;font-family: sans-serif;}
+d{color: black;font-size:13px;font-family:sans-serif;}
+
+/*
+#container {height: 100%; width:100%; font-size: 0;}
+#smallbox, #smallbox2. {display: inline-block; *display: inline; zoom: 1; vertical-align: top; font-size: 12px;}
+#left {width: 25%; background: blue;}
+#middle {width: 50%; background: green;}
+#right {width: 25%; background: yellow;}
+*/
+
+.bigbox{
+    
+    width: 900px;
+    height: 400px;
+    padding: 40px;
+    border: 0px rgb(255, 128, 0);
+    margin: 40px;
+    background:burlywood;
+}
+.smallbox{color: #000000;width: 250px;
+    display:inline-block;
+    float: left;
+    height: 200px;
+    padding: 10px;
+    border: 0px rgb(0, 0, 0);
+    margin: 0px;
+    background: darkslategray;}
+.smallbox2{color: white;width: 210px;
+    display: block;
+    float: left;
+    height: 120px;
+    padding: 30px;
+    border: 0px rgba(255, 255, 255, 0);
+    margin: -10px;
+    background: rgb(255, 255, 255);}
+.smallbox3{color: #000000;width: 250px;
+    display:inline-block
+    float: center;
+    height: 200px;
+    padding: 10px;
+    border: 0px rgb(0, 0, 0);
+    margin: 0px;
+    background: darkslategray;}
+.smallbox4{color: white;width: 210px;
+    display: inline-block;
+    float: center;
+    height: 120px;
+    padding: 30px;
+    border: 0px rgba(255, 255, 255, 0);
+    margin: 0px;
+    background: rgb(255, 255, 255);}
+.smallbox5{color: #000000;width: 250px;
+    display:inline-block;
+    float: left;
+        height: 200px;
+    padding: 10px;
+    border: 0px rgb(0, 0, 0);
+    margin: 0px;
+    background: darkslategray;}
+.smallbox6{color: white;width: 210px;
+    display: inline-block;
+    float: left;
+    height: 120px;
+    padding: 30px;
+    border: 0px rgba(255, 255, 255, 0);
+    margin: 0px;
+    background: rgb(255, 255, 255);}
+
+span.left {
+position: relative;
+left: 0;
+}
+span.right {
+position: absolute;
+left: 625px;
+    top: 0;
+    margin: auto;}
+
+span.center {position: relative; left:0%}
+div.line {
+position: relative;
+text-align: inherit;
+width: 100%;
+}
